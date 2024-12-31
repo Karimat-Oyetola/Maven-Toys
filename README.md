@@ -1,6 +1,6 @@
 # Maven Toys Expansion and Sales Report Analysis
 ![](animal_toys.jpg)
-
+---
 ## Introduction
 
 Maven Toys is a leading retailer in the toys and entertainment industry, offering a diverse range of products that spark creativity and joy in children and families. As the company seeks to expand its market presence, it has undertaken a data-driven approach to identify profitable opportunities and strategic locations for new stores.
@@ -50,12 +50,8 @@ To enable effective analysis and visualization, the dataset was processed and mo
   - Normalization: Transformed the data into a structured format suitable for analysis, to make fields like product prices and costs numerical.
   - Extract features such as profit margins, seasonal trends, and geographic performance metrics.
 
-    ##### Modeling:
-    Designed a star schema with fact tables 'sales table' and dimension tables (products, stores, calendar, inventory) to optimize for Power BI visualization.
-
-    Added calculated fields for profit per unit, total profit, and year-over-year(YOY) comparisons.
-
-This organized dataset made it easier to find useful insights and create clear visuals.
+###### Modeling:
+  I designed a star schema with fact tables 'sales table' and dimension tables (products, stores, calendar, inventory) to optimize for Power BI visualization. Also added calculated fields for profit per unit, total profit, and year-over-year(YOY) comparisons. This organized dataset made it easier to find useful insights and create clear visuals.
 
 Data Normalization                        |           Data Modeling
 :----------------------------------------:|:----------------------------------:
@@ -75,8 +71,8 @@ I used Power BI to perform a comprehensive review of sales trends and performanc
       
           2. Profit Margin = DIVIDE( [Profit],[Revenue])
 
-  - Yearly Comparison
-     - To track business growth, some of measures were created
+- Yearly Comparison
+    - To track business growth, some of measures were created
 
            1. Profit YOY% = DIVIDE(([Profit]-[Profit LY]),[Profit LY])
            
@@ -101,31 +97,30 @@ During the analysis, key observations and patterns were identified through detai
      ![](maventoys_profitable.png)
      
   - Toys led as the highest performing category, generating a profit of $1.08M, closely followed by Electronics at $1.00M. These categories dominate the market, highlighting key areas for strategic focus.
-
-2. Is this the same across store locations?
-  - Consistency Across Store Locations
-
-Toys                                      |           Electronics
-:----------------------------------------:|:----------------------------------:
-![](toys_location.png)                    |      ![](electronic_location.png)
-
-- Toys consistently dominate as the most profitable category across all stores, contributing significantly to revenue with a total profit of $1.08M.
+    
+  2. Is this the same across store locations?
+    - Consistency Across Store Locations
   
-- Electronics remain the second most profitable category in most locations, generating $1.00M in profit.
+  Toys                                      |           Electronics
+  :----------------------------------------:|:----------------------------------:
+  ![](toys_location.png)                    |      ![](electronic_location.png)
+  
+   - Toys consistently dominate as the most profitable category across all stores, contributing significantly to revenue with a total profit of $1.08M.
+      
+   - Electronics remain the second most profitable category in most locations, generating $1.00M in profit.
 
-3. Can you find any seasonal trends or patterns in the sales data?
-![](trend_partterns.png)
+  3. Can you find any seasonal trends or patterns in the sales data?
+    ![](trend_partterns.png)
 
-- Seasonal Trends in Sales Data
-The sales data reveals clear seasonal patterns throughout the year:
-
-1. Peak Performance:
-    - The highest sales occur between March and July with about $1.5M, and revenue peaking in April at approximately $1.6M.
-    - This suggests increased consumer activity during spring and early summer, likely driven by school holidays and warmer weather.
-2. Decline in Late Summer:
-    - Sales begin to decline in August, dropping significantly by September to below $0.8M, marking the lowest monthly revenue in the second half of the year.
-3. Recovery in December:
-    - After a steep decline in October and November, sales recover in December, reaching approximately $1.0M. This suggests holiday season purchases drived the recovery.
+   - Seasonal Trends in Sales Data
+    The sales data reveals clear seasonal patterns throughout the year:
+      - Peak Performance:
+        - The highest sales occur between March and July with about $1.5M, and revenue peaking in April at approximately $1.6M.
+        - This suggests increased consumer activity during spring and early summer, likely driven by school holidays and warmer weather.
+      - Decline in Late Summer:
+        - Sales begin to decline in August, dropping significantly by September to below $0.8M, marking the lowest monthly revenue in the second half of the year.
+      - Recovery in December:
+        - After a steep decline in October and November, sales recover in December, reaching approximately $1.0M. This suggests holiday season purchases drived the recovery.
 
 ## Results/Findings
 The analysis provided several actionable insights:
