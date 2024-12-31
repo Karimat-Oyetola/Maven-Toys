@@ -110,6 +110,7 @@ During the analysis, key observations and patterns were identified through detai
    - Electronics remain the second most profitable category in most locations, generating $1.00M in profit.
 
 3. Can you find any seasonal trends or patterns in the sales data?
+   
     ![](trend_partterns.png)
 
    - Seasonal Trends in Sales Data
