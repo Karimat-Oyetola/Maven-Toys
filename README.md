@@ -92,13 +92,13 @@ Explore the report and interact with its features [here](https://app.powerbi.com
 ## Exploratory Analysis
 During the analysis, key observations and patterns were identified through detailed exploration of the dataset. This process uncovered:
 
-  1. Which product categories drive the biggest profits?
+1. Which product categories drive the biggest profits?
 
      ![](maventoys_profitable.png)
      
   - Toys led as the highest performing category, generating a profit of $1.08M, closely followed by Electronics at $1.00M. These categories dominate the market, highlighting key areas for strategic focus.
     
-  2. Is this the same across store locations?
+2. Is this the same across store locations?
     - Consistency Across Store Locations
   
   Toys                                      |           Electronics
@@ -109,7 +109,7 @@ During the analysis, key observations and patterns were identified through detai
       
    - Electronics remain the second most profitable category in most locations, generating $1.00M in profit.
 
-  3. Can you find any seasonal trends or patterns in the sales data?
+3. Can you find any seasonal trends or patterns in the sales data?
     ![](trend_partterns.png)
 
    - Seasonal Trends in Sales Data
