@@ -1,6 +1,6 @@
 # Maven Toys Expansion and Sales Report Analysis
 ![](animal_toys.jpg)
----
+
 ## Introduction
 
 Maven Toys is a leading retailer in the toys and entertainment industry, offering a diverse range of products that spark creativity and joy in children and families. As the company seeks to expand its market presence, it has undertaken a data-driven approach to identify profitable opportunities and strategic locations for new stores.
